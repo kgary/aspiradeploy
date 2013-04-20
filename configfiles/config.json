@@ -1,0 +1,45 @@
+{
+   "config":{
+		"patientID":1,
+		"deviceID":1,
+		"buildVer" : "1.0.0",
+      "animation":{
+         "totalStages":10,
+         "totalDays":30,
+         "startDateMilliSec":1368034946662,
+         "currMood":"normal",
+		 "switchMoodSleepy":60000
+      },
+      "alertInfo":{
+         "spiroReadingTime":[
+            "0700",
+            "1400",
+            "2000"
+         ],  
+		 "dynamicReadingAlertText" : "The air quality doesn't seem good, please take a reading.",
+		 "intervalInTwoReadings" : 1800000,
+		 "symptomBoxText": "Are You having Symptoms?",
+		 "sound": true,
+		 "alertLength":60000
+      },
+      "maxValues":{
+         "PEFValue":600,
+         "FEVValue":20
+      },
+      "minValues":{
+         "PEFValue":100,
+         "FEVValue":1
+      },
+      "logFileWriteFrequency":10000,
+		 "contactName": "Dr. Kevin Gary",
+		 "contactPhone": "480603868",
+	  "airQualityConfig":{
+	  "monitorServicePollingTime":100000,
+		"yellowZone": 456,
+		"redZone":679,
+		"standardDeviation":2.02,
+		"mean":1.00,
+		"airQualityMonitoringEnabled":true
+	  }
+   }
+}
