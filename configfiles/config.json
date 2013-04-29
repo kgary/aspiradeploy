@@ -1,7 +1,7 @@
 {
    "config":{
-		"patientID":1,
-		"deviceID":1,
+		"patientID":"$$USER$$",
+		"deviceID":"$$SPIROMETER_ID$$,
 		"buildVer" : "1.0.0",
       "animation":{
          "totalStages":10,
@@ -35,10 +35,10 @@
 		 "contactPhone": "480603868",
 	  "airQualityConfig":{
 	  "monitorServicePollingTime":100000,
-		"yellowZone": 456,
-		"redZone":679,
-		"standardDeviation":2.02,
-		"mean":1.00,
+		"yellowZone": 1050,
+		"redZone":3000,
+		"standardDeviation":100,
+		"mean":1000,
 		"airQualityMonitoringEnabled":true
 	  }
    }
