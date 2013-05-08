@@ -1,7 +1,7 @@
 {
    "config":{
-		"patientID":"$$USER$$",
-		"deviceID":"$$SPIROMETER_ID$$,
+		"patientID":"patient1",
+		"deviceID":"spirometer1",
 		"buildVer" : "1.0.0",
       "animation":{
          "totalStages":10,
@@ -24,15 +24,15 @@
       },
       "maxValues":{
          "PEFValue":600,
-         "FEVValue":20
+         "FEVValue":50.0
       },
       "minValues":{
          "PEFValue":100,
-         "FEVValue":1
+         "FEVValue":1.0
       },
       "logFileWriteFrequency":10000,
-		 "contactName": "Kanya Shabazz",
-		 "contactPhone": "(202)476-6266",
+		 "contactName": "Dr. Kevin Gary",
+		 "contactPhone": "480603868",
 	  "airQualityConfig":{
 	  "monitorServicePollingTime":100000,
 		"yellowZone": 1050,
