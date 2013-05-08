@@ -31,8 +31,8 @@
          "FEVValue":1
       },
       "logFileWriteFrequency":10000,
-		 "contactName": "Dr. Kevin Gary",
-		 "contactPhone": "480603868",
+		 "contactName": "Kanya Shabazz",
+		 "contactPhone": "(202)476-6266",
 	  "airQualityConfig":{
 	  "monitorServicePollingTime":100000,
 		"yellowZone": 1050,
