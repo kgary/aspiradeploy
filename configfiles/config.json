@@ -23,7 +23,7 @@
 		 "alertLength":60000
       },
       "maxValues":{
-         "PEFValue":600,
+         "PEFValue":800,
          "FEVValue":50.0
       },
       "minValues":{
